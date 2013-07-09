@@ -1,0 +1,9 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.verticalChart .singleBar .title {
+
+  font-size: 11px;
+  line-height: 12px;
+}
