@@ -22,11 +22,11 @@ class call_model extends CI_Model {
      *
      ******************************************************/
     //get all calls within certain timeframe
-    public function getCalls($start, $end) {
+    public function getCalls($formattedDate) {
 
         //get calls within certain timeframe
         //Query DB
-        $query = $this->db->get_where('call', array('timestamp' >= $start, 'timestamp' <= $end), 20);
+        $query = $this->db->get_where('call', array('timestamp' => $formattedDate));
 
         //Make sure there is data returned
         if ($query->num_rows() > 0) {
