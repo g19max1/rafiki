@@ -24,11 +24,32 @@ class stat_ctrl extends CI_Controller{
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
+
+
     public function index() {
 
+        //Load needed models
         $this->load->model('ChronModel');
+        $this->load->model('call_model');
+
+        //Run functions and store data to be passed to the view
+        $callCount = $this->call_model->getTotalCount();
+        $outgoingCount = $this->call_model->getOutgoingCallCount();
+        $answeredCount = $this->call_model->getAnsweredCallCount();
+        $missedCount = $this->call_model->getMissedCallCount();
         $this->ChronModel->addValue();
-        $this->load->view('stats');
+
+        //Populate the data into an array to be
+        //passed into the view.
+        $viewData = array(
+            'call_count' => $callCount,
+            'outgoing_count' => $outgoingCount,
+            'answered_count' => $answeredCount,
+            'missed_count' => $missedCount
+        );
+
+        //Load the Main View with data
+        $this->load->view('stats', $viewData);
 
     }
 }

@@ -5,9 +5,9 @@
     <!-- start: Meta -->
     <meta charset="utf-8">
     <title>Rafiki - Social Insight Engine</title>
-    <meta name="description" content="ACME Dashboard Bootstrap Admin Template.">
-    <meta name="author" content="Łukasz Holeczek">
-    <meta name="keyword" content="ACME, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <meta name="description" content="Social Insight Engine.">
+    <meta name="author" content="Frostbyte Data">
+    <meta name="keyword" content="Social, Insight, Engine, analyze, analyzer, live, chart">
     <!-- end: Meta -->
 
     <!-- start: Mobile Specific -->
@@ -80,46 +80,6 @@
             </a>
         </li>
         <li>
-            <a href="#">
-                + <i class="halflings-icon white comment"></i> <span class="message">New comment</span> <span class="time">8 min</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                + <i class="halflings-icon white comment"></i> <span class="message">New comment</span> <span class="time">16 min</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                + <i class="halflings-icon white user"></i> <span class="message">New user registration</span> <span class="time">36 min</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                + <i class="halflings-icon white cart"></i> <span class="message">2 items sold</span> <span class="time">1 hour</span>
-            </a>
-        </li>
-        <li class="warning">
-            <a href="#">
-                - <i class="halflings-icon white user"></i> <span class="message">User deleted account</span> <span class="time">2 hour</span>
-            </a>
-        </li>
-        <li class="warning">
-            <a href="#">
-                - <i class="halflings-icon white shopping-cart"></i> <span class="message">Transaction was canceled</span> <span class="time">6 hour</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                + <i class="halflings-icon white comment"></i> <span class="message">New comment</span> <span class="time">yesterday</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                + <i class="halflings-icon white user"></i> <span class="message">New user registration</span> <span class="time">yesterday</span>
-            </a>
-        </li>
-        <li>
             <a class="dropdown-menu-sub-footer">View all notifications</a>
         </li>
     </ul>
@@ -163,14 +123,14 @@
 
     <div class="stats-date span3">
         <div>Activity Graph</div>
-        <div class="range">Today</div>
+        <div class="range">This Month</div>
     </div>
 
     <div class="stats span8">
 
         <div class="stat">
             <div class="left">
-                <div class="number green">23</div>
+                <div class="number green"><?php echo $call_count; ?></div>
                 <div class="title"><span class="color green"></span>All Calls</div>
             </div>
             <div class="right">
@@ -202,6 +162,8 @@
     <div id="stats-chart2"  class="span12" style="height:300px;overflow:hidden;" ></div>
 
 </div>
+<div class="row-fluid">
+</div>
 
 <hr>
 </div>
@@ -212,7 +174,7 @@
 
             <div class="bar-stat">
                 <span class="title">All Time Calls</span>
-                <span class="value">342</span>
+                <span class="value"><?php echo $call_count; ?></span>
                 <span class="chart yellow">1,2,3,4,5,5,6,7,8,8</span>
             </div>
 
@@ -220,7 +182,7 @@
 
             <div class="bar-stat">
                 <span class="title">All Outgoing Calls</span>
-                <span class="value">76</span>
+                <span class="value"><?php echo $outgoing_count; ?></span>
                 <span class="chart blue">1,2,3,4,5,5,6,7,8,8</span>
             </div>
 
@@ -228,7 +190,7 @@
 
             <div class="bar-stat">
                 <span class="title">Answered Calls</span>
-                <span class="value">125</span>
+                <span class="value"><?php echo $answered_count; ?></span>
                 <span class="chart green">2,4,6,8,3,5,9,3,2,2</span>
             </div>
 
@@ -236,7 +198,7 @@
 
             <div class="bar-stat">
                 <span class="title">Missed Calls</span>
-                <span class="value">34</span>
+                <span class="value"><?php echo $missed_count; ?></span>
                 <span class="chart red">0,3,3,2,4,3,4,7,8,4</span>
             </div>
 
@@ -523,52 +485,10 @@
             <ul class="todo-list">
                 <li>
                     Windows Phone 8 App <span class="label label-important">today</span>
-														<span class="todo-actions">
-															<a href="#"><i class="halflings-icon ok"></i></a>
-															<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-														</span>
                 </li>
                 <li>New frontend layout <span class="label label-important">today</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
                 </li>
                 <li>Hire developers <span class="label label-warning">tommorow</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
-                </li>
-                <li>Windows Phone 8 App <span class="label label-warning">tommorow</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
-                </li>
-                <li>New frontend layout <span class="label label-success">this week</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
-                </li>
-                <li>Hire developers <span class="label label-success">this week</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
-                </li>
-                <li>New frontend layout <span class="label label-info">this month</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
-                </li>
-                <li>Hire developers <span class="label label-info">this month</span>
-													<span class="todo-actions">
-														<a href="#"><i class="halflings-icon ok"></i></a>
-														<a href="#" class="todo-remove"><i class="halflings-icon remove"></i></a>
-													</span>
                 </li>
             </ul>
         </div>

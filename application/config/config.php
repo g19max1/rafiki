@@ -17,7 +17,7 @@ if (!defined('BASEPATH'))
   | path to your installation.
   |
  */
-$config['base_url'] = 'netstats/';
+$config['base_url'] = 'rafiki/';
 
 /*
   |--------------------------------------------------------------------------
@@ -349,7 +349,7 @@ $config['rewrite_short_tags'] = FALSE;
 
 /*
   |--------------------------------------------------------------------------
-  | Reverse Proxy IPs
+  | Reverse Proxy IPs                           s
   |--------------------------------------------------------------------------
   |
   | If your server is behind a reverse proxy, you must whitelist the proxy IP

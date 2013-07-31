@@ -53,9 +53,9 @@ $active_record = TRUE;
 
 //Parker's Local DB
 $db['local']['hostname'] = 'localhost';
-$db['local']['username'] = 'netstats';
-$db['local']['password'] = '7RDwPKA6yb92MWdz';
-$db['local']['database'] = 'netstats';
+$db['local']['username'] = 'rafiki';
+$db['local']['password'] = 'S3esqac893EVqtwP';
+$db['local']['database'] = 'rafiki';
 $db['local']['dbdriver'] = 'mysql';
 $db['local']['dbprefix'] = '';
 $db['local']['pconnect'] = TRUE;
@@ -67,41 +67,6 @@ $db['local']['dbcollat'] = 'utf8_general_ci';
 $db['local']['swap_pre'] = '';
 $db['local']['autoinit'] = TRUE;
 $db['local']['stricton'] = FALSE;
-
-//Ted's Database
-$db['ted']['hostname'] = 'localhost';
-$db['ted']['username'] = 'lejdesig_netst';
-$db['ted']['password'] = '7RDwPKA6yb92MWdz';
-$db['ted']['database'] = 'lejdesig_netst';
-$db['ted']['dbdriver'] = 'mysql';
-$db['ted']['dbprefix'] = '';
-$db['ted']['pconnect'] = TRUE;
-$db['ted']['db_debug'] = TRUE;
-$db['ted']['cache_on'] = FALSE;
-$db['ted']['cachedir'] = '';
-$db['ted']['char_set'] = 'utf8';
-$db['ted']['dbcollat'] = 'utf8_general_ci';
-$db['ted']['swap_pre'] = '';
-$db['ted']['autoinit'] = TRUE;
-$db['ted']['stricton'] = FALSE;
-
-//Production Database
-$db['production']['hostname'] = '74.220.207.113';
-$db['production']['username'] = 'lejdesig_netst';
-$db['production']['password'] = '7RDwPKA6yb92MWdz';
-$db['production']['database'] = 'lejdesig_netst';
-$db['production']['dbdriver'] = 'mysql';
-$db['production']['dbprefix'] = '';
-$db['production']['pconnect'] = TRUE;
-$db['production']['db_debug'] = TRUE;
-$db['production']['cache_on'] = FALSE;
-$db['production']['cachedir'] = '';
-$db['production']['char_set'] = 'utf8';
-$db['production']['dbcollat'] = 'utf8_general_ci';
-$db['production']['swap_pre'] = '';
-$db['production']['autoinit'] = TRUE;
-$db['production']['stricton'] = FALSE;
-
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */

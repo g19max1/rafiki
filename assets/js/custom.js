@@ -850,12 +850,12 @@ function widget_area_functions() {
 	}, 2500);
 	
 	var g1 = new JustGage({
-	    id: "cpu-usage", 
+	    id: "cpu-usage",
 	    value: getRandomInt(0, 100), 
 	    min: 0,
 	    max: 100,
-	    title: "CPU",
-	    label: "Usage",
+	    title: "Interaction Index",
+	    label: "Activity",
 	    levelColorsGradient: false
 	 });
 	
