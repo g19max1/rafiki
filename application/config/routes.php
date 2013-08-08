@@ -43,6 +43,7 @@ if (!defined('BASEPATH'))
 
 $route['default_controller'] = 'stat_ctrl';
 $route['charts/getcallvalues'] = 'charts_ctrl/getcallvalues';
+$route['charts/gettextvalues'] = 'charts_ctrl/gettextvalues';
 $route['404_override'] = '';
 
 

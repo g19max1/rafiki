@@ -1,118 +1,103 @@
 function charts() {
 
-  getMainData();
-
-  function randNum() {
-    return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20) * 12;
-  }
-
-  function randNum2() {
-    return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20) * 5;
-  }
-
-  function randNum3() {
-    return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20) * 3;
-  }
-
-  function randNum4() {
-    return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20) * 1;
-  }
-
-  //Get the JSON array from PHP server
-  function getMainData() {
-    // fire off the request to /form.php
-    request = $.ajax({
-      url: "charts/getcallvalues",
-      type: "post"
-    });
-
-    // callback handler that will be called on success
-    request.done(function (response, textStatus, jqXHR) {
-      // log a message to the console
-      var data = $.parseJSON(response);
-      console.log(JSArray);
-      drawMainChart(JSArray);
-    });
-
-    // callback handler that will be called on failure
-    request.fail(function (jqXHR, textStatus, errorThrown) {
-      // log the error to the console
-      console.error(
-        "The following error occured: " +
-          textStatus, errorThrown
-      );
-    });
-  }
-
   /* ---------- Chart with points ---------- */
-  function drawMainChart(data) {
+  function drawMainChart() {
 
-    if ($("#stats-chart2").length) {
+    //Get the JSON array from PHP server
+    //Initialize vars
+    var callResult = [];
+    var textResult = [];
 
-      var plot = $.plot($("#stats-chart2"),
-        [
-          { data: data, label: "data"}
-        ], {
-          series: {
-            lines: { show: true,
-              lineWidth: 2
+    // fire off the request to /form.php
+    var callRequest = $.ajax({
+      url: "charts/getcallvalues",
+      type: "post",
+      mimeType: "application/json"
+    });
+
+    // fire off the request to /form.php
+    var textRequest = $.ajax({
+      url: "charts/gettextvalues",
+      type: "post",
+      mimeType: "application/json"
+    });
+
+    //Once all ajax requests are done...
+    $.when(callRequest, textRequest).done( function(_callResult, _textResult){
+      callResult = _callResult[2]["responseJSON"];
+      textResult = _textResult[2]["responseJSON"];
+
+      if ($("#stats-chart2").length) {
+
+        var plot = $.plot($("#stats-chart2"),
+          [
+            { data: convertToArray(callResult), label: "Calls"},
+            { data: convertToArray(textResult), label: "Texts"}
+          ],
+          {
+            series: {
+              lines: { show: true,
+                lineWidth: 2
+              },
+              points: { show: true,
+                lineWidth: 2
+              },
+              shadowSize: 0
             },
-            points: { show: true,
-              lineWidth: 2
+            grid: { hoverable: true,
+              clickable: true,
+              tickColor: "#f9f9f9",
+              borderWidth: 0
             },
-            shadowSize: 0
-          },
-          grid: { hoverable: true,
-            clickable: true,
-            tickColor: "#f9f9f9",
-            borderWidth: 0
-          },
-          legend: {
-            show: false
-          },
-          colors: ["#bdea74", "#eae874", "#2FABE9", "#FA5833"],
-          xaxis: {ticks: 15, tickDecimals: 0},
-          yaxis: {ticks: 5, tickDecimals: 0},
+            legend: {
+              show: false
+            },
+            colors: ["#bdea74", "#67c2ef"],
+            xaxis: {ticks: [[1, "30"],[2,"29"], [3,"28"],[4,"27"],[5,"26"],[6,"25"],[7,"24"],[8,"23"],[9,"22"],[10,"21"],[11,"20"],[12,"19"],[13,"18"],[14,"17"],[15,"16"],[16,"15"],[17,"14"],[18,"13"],[19,"12"],[20,"11"],[21,"10"],[22,"9"],[23,"8"],[24,"7"],[25,"6"],[26,"5"],[27,"4"],[28,"3"],[29,"2"],[30,"1"]], tickDecimals: 0},
+            yaxis: {ticks: 5, tickDecimals: 0}
+          });
+
+        function showTooltip(x, y, contents) {
+          $('<div id="tooltip">' + contents + '</div>').css({
+            position: 'absolute',
+            display: 'none',
+            top: y + 5,
+            left: x + 5,
+            border: '1px solid #fdd',
+            padding: '2px',
+            'background-color': '#dfeffc',
+            opacity: 0.80
+          }).appendTo("body").fadeIn(200);
+        }
+
+        var previousPoint = null;
+        $("#stats-chart2").bind("plothover", function (event, pos, item) {
+          $("#x").text(pos.x.toFixed(2));
+          $("#y").text(pos.y.toFixed(2));
+
+          if (item) {
+            if (previousPoint != item.dataIndex) {
+              previousPoint = item.dataIndex;
+
+              $("#tooltip").remove();
+              var x = item.datapoint[0].toFixed(2),
+                y = item.datapoint[1].toFixed(2);
+
+              showTooltip(item.pageX, item.pageY,
+                item.series.label + " of " + x + " = " + y);
+            }
+          }
+          else {
+            $("#tooltip").remove();
+            previousPoint = null;
+          }
         });
 
-      function showTooltip(x, y, contents) {
-        $('<div id="tooltip">' + contents + '</div>').css({
-          position: 'absolute',
-          display: 'none',
-          top: y + 5,
-          left: x + 5,
-          border: '1px solid #fdd',
-          padding: '2px',
-          'background-color': '#dfeffc',
-          opacity: 0.80
-        }).appendTo("body").fadeIn(200);
       }
-
-      var previousPoint = null;
-      $("#stats-chart2").bind("plothover", function (event, pos, item) {
-        $("#x").text(pos.x.toFixed(2));
-        $("#y").text(pos.y.toFixed(2));
-
-        if (item) {
-          if (previousPoint != item.dataIndex) {
-            previousPoint = item.dataIndex;
-
-            $("#tooltip").remove();
-            var x = item.datapoint[0].toFixed(2),
-              y = item.datapoint[1].toFixed(2);
-
-            showTooltip(item.pageX, item.pageY,
-              item.series.label + " of " + x + " = " + y);
-          }
-        }
-        else {
-          $("#tooltip").remove();
-          previousPoint = null;
-        }
-      });
-
-    }
+    });
   }
+
+  drawMainChart();
 
   function randNumFB() {
     return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20);
@@ -833,15 +818,10 @@ function charts() {
 
   //Utility function to convert key names to 0, 1 instead of db column names.
   //Needed for charting library
-  function convertKeys(_JSArray) {
-    var NewJSArray = [];
-    for (var i = 0; i < _JSArray.length; i++) {
-      var value = _JSArray[i].value;
-
-      // create a new array of date and likes
-      // and push into total likes
-      NewJSArray.push([i, value]);
-    }
-    return NewJSArray;
+  function convertToArray(_JSArray) {
+    var result = [];
+    for (var i in _JSArray)
+      result.push([i, _JSArray [i]]);
+    return result;
   }
 }

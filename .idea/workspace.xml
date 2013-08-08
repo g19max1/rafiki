@@ -2,15 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\rafiki\application\controllers\async.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/text_model.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\rafiki\assets\js\jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ajax.js" afterPath="$PROJECT_DIR$/assets/js/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/calendar.html" afterPath="$PROJECT_DIR$/assets/calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/call_model.php" afterPath="$PROJECT_DIR$/application/models/call_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/chart.html" afterPath="$PROJECT_DIR$/assets/chart.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/charts.js" afterPath="$PROJECT_DIR$/assets/js/charts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/charts_ctrl.php" afterPath="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/file-manager.html" afterPath="$PROJECT_DIR$/assets/file-manager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/form.html" afterPath="$PROJECT_DIR$/assets/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery.html" afterPath="$PROJECT_DIR$/assets/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icon.html" afterPath="$PROJECT_DIR$/assets/icon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index-kopia.html" afterPath="$PROJECT_DIR$/assets/index-kopia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index.html" afterPath="$PROJECT_DIR$/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/infrastructure.html" afterPath="$PROJECT_DIR$/assets/infrastructure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/login.html" afterPath="$PROJECT_DIR$/assets/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/messages.html" afterPath="$PROJECT_DIR$/assets/messages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/stat_ctrl.php" afterPath="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/stats.php" afterPath="$PROJECT_DIR$/application/views/stats.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu1.html" afterPath="$PROJECT_DIR$/assets/submenu1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu2.html" afterPath="$PROJECT_DIR$/assets/submenu2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu3.html" afterPath="$PROJECT_DIR$/assets/submenu3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/table.html" afterPath="$PROJECT_DIR$/assets/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tasks.html" afterPath="$PROJECT_DIR$/assets/tasks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/typography.html" afterPath="$PROJECT_DIR$/assets/typography.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ui.html" afterPath="$PROJECT_DIR$/assets/ui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/widgets.html" afterPath="$PROJECT_DIR$/assets/widgets.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rafiki.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375246315615" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375929721365" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/js/directives.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373483755655" ignored="false" />
     <file path="/directives.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373483660218" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/partials/actionButtons.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373482246270" ignored="false" />
@@ -32,20 +56,23 @@
     <file path="$PROJECT_DIR$/../RESTServer/application/config/config.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373589500833" ignored="false" />
     <file path="$PROJECT_DIR$/../RESTServer/application/config/routes.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374447580249" ignored="false" />
     <file path="/routes.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373589585090" ignored="false" />
-    <file path="/stats.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375245273988" ignored="false" />
-    <file path="/call_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375244885882" ignored="false" />
-    <file path="/stat_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375244794826" ignored="false" />
+    <file path="/stats.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375936123256" ignored="false" />
+    <file path="/call_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375332821773" ignored="false" />
+    <file path="/stat_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375935899549" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/webtest/unit/services/dialogSpec.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374589391139" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/js/services/services.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374590673001" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/webtest/unit/directivesSpec.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374584460175" ignored="false" />
     <file path="/dialogSpec.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374589175676" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/webtest/mock/serviceData.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374588544658" ignored="false" />
     <file path="/serviceData.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374587398506" ignored="false" />
-    <file path="$PROJECT_DIR$/../AngularDemo1/.idea/workspace.xml" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375247258656" ignored="false" />
-    <file path="/ajax.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375245553158" ignored="false" />
+    <file path="$PROJECT_DIR$/../AngularDemo1/.idea/workspace.xml" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375306654706" ignored="false" />
+    <file path="/ajax.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375931389453" ignored="false" />
     <file path="/async.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375246182500" ignored="false" />
-    <file path="/charts_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375247013915" ignored="false" />
-    <file path="/charts.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375247198094" ignored="false" />
+    <file path="/charts_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375934012768" ignored="false" />
+    <file path="/charts.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375934994373" ignored="false" />
+    <file path="$PROJECT_DIR$/../rafiki marketing/index.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375767253951" ignored="false" />
+    <file path="$PROJECT_DIR$/../rafiki marketing/carousel.css" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375767291352" ignored="false" />
+    <file path="/text_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375933215239" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +87,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,7 +124,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -109,53 +136,30 @@
       <file leaf-file-name="stats.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/stats.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="17" selection-start="5206" selection-end="5206" vertical-scroll-proportion="-2.2941177">
+            <state line="214" column="38" selection-start="7373" selection-end="7373" vertical-scroll-proportion="-5.901961">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.10.2.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="42" selection-start="64252" selection-end="64269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="857" column="22" selection-start="18484" selection-end="18484" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1375245226288" expanded="false" signature="22823:22833" placeholder="..." />
-                <marker date="1375245226288" expanded="false" signature="23899:23909" placeholder="..." />
-                <marker date="1375245226288" expanded="false" signature="24703:24713" placeholder="..." />
-                <marker date="1375245226288" expanded="false" signature="25729:25739" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="59" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.8184893">
+            <state line="46" column="68" selection-start="1665" selection-end="1665" vertical-scroll-proportion="-14.346154">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charts.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="40" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-31.28">
-              <folding>
-                <marker date="1375247210941" expanded="true" signature="18368:18394" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +167,19 @@
       <file leaf-file-name="charts_ctrl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/charts_ctrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="50" selection-start="307" selection-end="307" vertical-scroll-proportion="-5.8846154">
+            <state line="26" column="48" selection-start="565" selection-end="565" vertical-scroll-proportion="-13.076923">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charts.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="41" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.5584416">
+              <folding>
+                <marker date="1375936261258" expanded="true" signature="18415:18441" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +187,7 @@
       <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,7 +196,7 @@
       <file leaf-file-name="stat_ctrl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/stat_ctrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="53" selection-start="999" selection-end="1009" vertical-scroll-proportion="-9.153846">
+            <state line="51" column="60" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-17.615385">
               <folding />
             </state>
           </provider>
@@ -190,7 +205,16 @@
       <file leaf-file-name="call_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/call_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="78" selection-start="915" selection-end="915" vertical-scroll-proportion="-14.384615">
+            <state line="25" column="43" selection-start="592" selection-end="592" vertical-scroll-proportion="40.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/text_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="36" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-40.53846">
               <folding />
             </state>
           </provider>
@@ -199,7 +223,7 @@
       <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="51" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-0.65384614">
+            <state line="66" column="47" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,24 +250,26 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
-        <option value="$PROJECT_DIR$/application/views/stats.php" />
-        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
-        <option value="$PROJECT_DIR$/application/models/call_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/async.php" />
-        <option value="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
-        <option value="$PROJECT_DIR$/assets/js/charts.js" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js" />
+        <option value="$PROJECT_DIR$/application/models/call_model.php" />
+        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/models/text_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
+        <option value="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
+        <option value="$PROJECT_DIR$/application/views/stats.php" />
+        <option value="$PROJECT_DIR$/assets/js/charts.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-281" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -612,7 +638,11 @@
       <created>1375246320097</created>
       <updated>1375246320097</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created ajax request to load calls line in main chart for the last 30 days.&#10;charts.js still needs work to fix chart.">
+      <created>1375247334508</created>
+      <updated>1375247334508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -636,33 +666,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-281" y="-1088" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53255427" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14994664" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32272726" sideWeight="0.46744573" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -708,7 +738,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Async controller to hook into ajax requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created ajax request to load calls line in main chart for the last 30 days.&#10;charts.js still needs work to fix chart." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -725,25 +755,14 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added AJAX base&#10;Made numbers more dynamic" />
     <MESSAGE value="Added Async controller to hook into ajax requests" />
+    <MESSAGE value="Created ajax request to load calls line in main chart for the last 30 days.&#10;charts.js still needs work to fix chart." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="63" selection-start="3082" selection-end="3082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/ChronModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="66" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/migration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="33" selection-start="444" selection-end="444" vertical-scroll-proportion="0.03307393" />
@@ -751,94 +770,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/foreign_chars.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="20" selection-start="13229" selection-end="13229" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="857" column="22" selection-start="18484" selection-end="18484" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="47" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="64252" selection-end="64269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="944" column="13" selection-start="14881" selection-end="14887" vertical-scroll-proportion="0.3702081" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="20" selection-start="13229" selection-end="13229" vertical-scroll-proportion="0.0">
+        <state line="46" column="68" selection-start="1665" selection-end="1665" vertical-scroll-proportion="-14.346154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/application/models/text_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="857" column="22" selection-start="18484" selection-end="18484" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1375245226288" expanded="false" signature="22823:22833" placeholder="..." />
-            <marker date="1375245226288" expanded="false" signature="23899:23909" placeholder="..." />
-            <marker date="1375245226288" expanded="false" signature="24703:24713" placeholder="..." />
-            <marker date="1375245226288" expanded="false" signature="25729:25739" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="51" selection-start="2015" selection-end="2015" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/stat_ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="53" selection-start="999" selection-end="1009" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/stats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="17" selection-start="5206" selection-end="5206" vertical-scroll-proportion="-2.2941177">
+        <state line="68" column="36" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-40.53846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/call_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="78" selection-start="915" selection-end="915" vertical-scroll-proportion="-14.384615">
+        <state line="25" column="43" selection-start="592" selection-end="592" vertical-scroll-proportion="40.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/charts_ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="50" selection-start="307" selection-end="307" vertical-scroll-proportion="-5.8846154">
+        <state line="26" column="48" selection-start="565" selection-end="565" vertical-scroll-proportion="-13.076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
+    <entry file="file://$PROJECT_DIR$/application/controllers/stat_ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+        <state line="51" column="60" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-17.615385">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/stats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="38" selection-start="7373" selection-end="7373" vertical-scroll-proportion="-5.901961">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="40" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-31.28">
+        <state line="54" column="41" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.5584416">
           <folding>
-            <marker date="1375247210941" expanded="true" signature="18368:18394" placeholder="..." />
+            <marker date="1375936261258" expanded="true" signature="18415:18441" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="59" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.8184893">
-          <folding />
         </state>
       </provider>
     </entry>

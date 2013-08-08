@@ -37,6 +37,7 @@ class stat_ctrl extends CI_Controller{
         $outgoingCount = $this->call_model->getOutgoingCallCount();
         $answeredCount = $this->call_model->getAnsweredCallCount();
         $missedCount = $this->call_model->getMissedCallCount();
+        $percentCallsAnswered = 100 * ($answeredCount / $callCount);
         $this->ChronModel->addValue();
 
         //Populate the data into an array to be
@@ -45,7 +46,8 @@ class stat_ctrl extends CI_Controller{
             'call_count' => $callCount,
             'outgoing_count' => $outgoingCount,
             'answered_count' => $answeredCount,
-            'missed_count' => $missedCount
+            'missed_count' => $missedCount,
+            'percent_calls_answered' => $percentCallsAnswered
         );
 
         //Load the Main View with data

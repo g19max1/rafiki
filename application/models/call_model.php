@@ -21,18 +21,18 @@ class call_model extends CI_Model {
      *  Functions for all calls
      *
      ******************************************************/
-    //get all calls within certain timeframe
-    public function getCalls($formattedDate) {
+    //get all calls within certain date
+    public function getCallsOnDate($formattedDate) {
 
         //get calls within certain timeframe
         //Query DB
-        $query = $this->db->get_where('call', array('timestamp' => $formattedDate));
+        $this->db->like('timestamp', $formattedDate, 'after');
+        $query = $this->db->get('call');
 
         //Make sure there is data returned
         if ($query->num_rows() > 0) {
            $calls = $query->result();
         } else {
-            echo("No data returned");
             return null;
         }
         return $calls;
@@ -41,7 +41,7 @@ class call_model extends CI_Model {
     //get all calls
     public function getAllCalls() {
 
-        //get calls within certain timeframe
+        //get calls
         //Query DB
         $query = $this->db->get('call', 20);
 

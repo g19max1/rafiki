@@ -211,7 +211,7 @@
                 <li>
                     <span class="title">All Calls Answered</span>
                     <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressGreen">85</div>
+                    <div class="taskProgress progressSlim progressGreen"><?php echo round($percent_calls_answered); ?></div>
                 </li>
 
                 <li>
@@ -526,7 +526,7 @@
 
 <!-- start: JavaScript-->
 
-<script src="<?php echo(THEME_PATH); ?>js/jquery-1.9.1.min.js"></script>
+<script src="<?php echo(THEME_PATH); ?>js/jquery-1.10.2.min.js"></script>
 <script src="<?php echo(THEME_PATH); ?>js/jquery-migrate-1.0.0.min.js"></script>
 
 <script src="<?php echo(THEME_PATH); ?>js/jquery-ui-1.10.0.custom.min.js"></script>
@@ -587,6 +587,7 @@
 <script src="<?php echo(THEME_PATH); ?>js/core.js"></script>
 
 <script src="<?php echo(THEME_PATH); ?>js/charts.js"></script>
+<script src="<?php echo(THEME_PATH); ?>js/ajax.js"></script>
 
 <script src="<?php echo(THEME_PATH); ?>js/custom.js"></script>
 <!-- end: JavaScript-->
