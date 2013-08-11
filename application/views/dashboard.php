@@ -122,8 +122,8 @@
 <div class="row-fluid span12">
 
     <div class="stats-date span3">
-        <div>Activity Graph</div>
-        <div class="range">This Month</div>
+        <div>Calls & Texts</div>
+        <div class="range">Last 30 Days</div>
     </div>
 
     <div class="stats span8">
@@ -135,21 +135,21 @@
             </div>
             <div class="right">
                 <div class="arrow">
-                    <img src="<?php echo(THEME_PATH); ?>img/uparrow.png">
+                    <img src="<?php echo(THEME_PATH); ?>img/<?php echo ($call_change_percentage_arrow_direction);?>arrow.png">
                 </div>
-                <div class="percent">+8%</div>
+                <div class="percent"><?php echo ($call_change_percentage);?> from yesterday</div>
             </div>
         </div>
         <div class="stat">
             <div class="left">
-                <div class="number blue">432</div>
+                <div class="number blue"><?php echo $text_count; ?></div>
                 <div class="title"><span class="color blue"></span>All Texts</div>
             </div>
             <div class="right">
                 <div class="arrow">
-                    <img src="<?php echo(THEME_PATH); ?>img/downarrow.png">
+                    <img src="<?php echo(THEME_PATH); ?>img/<?php echo ($text_change_percentage_arrow_direction);?>arrow.png">
                 </div>
-                <div class="percent">-12%</div>
+                <div class="percent"><?php echo ($text_change_percentage);?> from yesterday</div>
             </div>
         </div>
 
@@ -175,7 +175,7 @@
             <div class="bar-stat">
                 <span class="title">All Time Calls</span>
                 <span class="value"><?php echo $call_count; ?></span>
-                <span class="chart yellow">1,2,3,4,5,5,6,7,8,8</span>
+                <span class="chart yellow"><?php echo $mini_bar_all_calls; ?></span>
             </div>
 
             <hr>
@@ -183,7 +183,7 @@
             <div class="bar-stat">
                 <span class="title">All Outgoing Calls</span>
                 <span class="value"><?php echo $outgoing_count; ?></span>
-                <span class="chart blue">1,2,3,4,5,5,6,7,8,8</span>
+                <span class="chart blue"><?php echo $mini_bar_all_outgoing; ?></span>
             </div>
 
             <hr>
@@ -191,7 +191,7 @@
             <div class="bar-stat">
                 <span class="title">Answered Calls</span>
                 <span class="value"><?php echo $answered_count; ?></span>
-                <span class="chart green">2,4,6,8,3,5,9,3,2,2</span>
+                <span class="chart green"><?php echo $mini_bar_answered; ?></span>
             </div>
 
             <hr>
@@ -199,12 +199,12 @@
             <div class="bar-stat">
                 <span class="title">Missed Calls</span>
                 <span class="value"><?php echo $missed_count; ?></span>
-                <span class="chart red">0,3,3,2,4,3,4,7,8,4</span>
+                <span class="chart red"><?php echo $mini_bar_missed; ?></span>
             </div>
 
             <hr>
 
-            <div id="cpu-usage"></div>
+            <div id="interaction-index"></div>
 
             <ul class="progress-bars">
 

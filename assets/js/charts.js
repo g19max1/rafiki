@@ -72,19 +72,22 @@ function charts() {
 
         var previousPoint = null;
         $("#stats-chart2").bind("plothover", function (event, pos, item) {
-          $("#x").text(pos.x.toFixed(2));
-          $("#y").text(pos.y.toFixed(2));
+          $("#x").text(pos.x.toFixed(0));
+          $("#y").text(pos.y.toFixed(0));
 
           if (item) {
             if (previousPoint != item.dataIndex) {
               previousPoint = item.dataIndex;
 
               $("#tooltip").remove();
-              var x = item.datapoint[0].toFixed(2),
-                y = item.datapoint[1].toFixed(2);
+              var x = item.datapoint[0].toFixed(0),
+                y = item.datapoint[1].toFixed(0);
+
+              var a = new Date();
+              a.setDate(a.getDate() - (30-x));
 
               showTooltip(item.pageX, item.pageY,
-                item.series.label + " of " + x + " = " + y);
+                y + " " + item.series.label + " on " + a.toDateString());
             }
           }
           else {
@@ -98,6 +101,27 @@ function charts() {
   }
 
   drawMainChart();
+  /* ---------- Just Gage Charts ---------- */
+  // fire off the request to /form.php
+  var iiRequest = $.ajax({
+    url: "stats/getinteractionindex",
+    type: "post",
+    mimeType: "application/json"
+  });
+
+  //Once all ajax requests are done...
+  $.when(iiRequest).done( function(_iiRequest){
+    var g1 = new JustGage({
+      id: "interaction-index",
+      value: _iiRequest,
+      min: 0,
+      max: 100,
+      title: "Interaction Index",
+      label: "%",
+      levelColorsGradient: false
+    });
+  });
+
 
   function randNumFB() {
     return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20);

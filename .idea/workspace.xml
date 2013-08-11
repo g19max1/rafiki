@@ -2,39 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/text_model.php" />
-      <change type="MOVED" beforePath="C:\wamp\www\rafiki\assets\js\jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/ajax.js" afterPath="$PROJECT_DIR$/assets/js/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/calendar.html" afterPath="$PROJECT_DIR$/assets/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/contact_model.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/stat_model.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\rafiki\application\controllers\stat_ctrl.php" afterPath="$PROJECT_DIR$/application/controllers/dashboard_ctrl.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\rafiki\application\views\stats.php" afterPath="$PROJECT_DIR$/application/views/dashboard.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/call_model.php" afterPath="$PROJECT_DIR$/application/models/call_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/chart.html" afterPath="$PROJECT_DIR$/assets/chart.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/charts.js" afterPath="$PROJECT_DIR$/assets/js/charts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/charts_ctrl.php" afterPath="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/file-manager.html" afterPath="$PROJECT_DIR$/assets/file-manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/form.html" afterPath="$PROJECT_DIR$/assets/form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gallery.html" afterPath="$PROJECT_DIR$/assets/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/icon.html" afterPath="$PROJECT_DIR$/assets/icon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index-kopia.html" afterPath="$PROJECT_DIR$/assets/index-kopia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index.html" afterPath="$PROJECT_DIR$/assets/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/infrastructure.html" afterPath="$PROJECT_DIR$/assets/infrastructure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/login.html" afterPath="$PROJECT_DIR$/assets/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/messages.html" afterPath="$PROJECT_DIR$/assets/messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/assets/js/jquery.sparkline.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/stat_ctrl.php" afterPath="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/stats.php" afterPath="$PROJECT_DIR$/application/views/stats.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu1.html" afterPath="$PROJECT_DIR$/assets/submenu1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu2.html" afterPath="$PROJECT_DIR$/assets/submenu2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/submenu3.html" afterPath="$PROJECT_DIR$/assets/submenu3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/table.html" afterPath="$PROJECT_DIR$/assets/table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/tasks.html" afterPath="$PROJECT_DIR$/assets/tasks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/typography.html" afterPath="$PROJECT_DIR$/assets/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ui.html" afterPath="$PROJECT_DIR$/assets/ui.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/widgets.html" afterPath="$PROJECT_DIR$/assets/widgets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.less" afterPath="$PROJECT_DIR$/assets/css/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.min.css" afterPath="$PROJECT_DIR$/assets/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/text_model.php" afterPath="$PROJECT_DIR$/application/models/text_model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rafiki.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375929721365" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376002120776" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/js/directives.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373483755655" ignored="false" />
     <file path="/directives.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373483660218" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/partials/actionButtons.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373482246270" ignored="false" />
@@ -44,7 +30,7 @@
     <file path="/actionButtons.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373386657838" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/partials/dashboard.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373511589124" ignored="false" />
     <file path="/dashboard.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373482638562" ignored="false" />
-    <file path="/a.dummy" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375245327904" ignored="false" />
+    <file path="/a.dummy" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376248264072" ignored="false" />
     <file path="$PROJECT_DIR$/../RESTServer/application/controllers/api/Call.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373556862509" ignored="false" />
     <file path="/Call.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373431909688" ignored="false" />
     <file path="$PROJECT_DIR$/../RESTServer/application/config/autoload.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373519457638" ignored="false" />
@@ -56,9 +42,9 @@
     <file path="$PROJECT_DIR$/../RESTServer/application/config/config.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373589500833" ignored="false" />
     <file path="$PROJECT_DIR$/../RESTServer/application/config/routes.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374447580249" ignored="false" />
     <file path="/routes.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1373589585090" ignored="false" />
-    <file path="/stats.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375936123256" ignored="false" />
-    <file path="/call_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375332821773" ignored="false" />
-    <file path="/stat_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375935899549" ignored="false" />
+    <file path="/stats.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376006933233" ignored="false" />
+    <file path="/call_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376246740157" ignored="false" />
+    <file path="/stat_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376008901852" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/webtest/unit/services/dialogSpec.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374589391139" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/web-app/js/services/services.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374590673001" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/billzap/webtest/unit/directivesSpec.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1374584460175" ignored="false" />
@@ -68,11 +54,18 @@
     <file path="$PROJECT_DIR$/../AngularDemo1/.idea/workspace.xml" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375306654706" ignored="false" />
     <file path="/ajax.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375931389453" ignored="false" />
     <file path="/async.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375246182500" ignored="false" />
-    <file path="/charts_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375934012768" ignored="false" />
-    <file path="/charts.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375934994373" ignored="false" />
+    <file path="/charts_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376248811285" ignored="false" />
+    <file path="/charts.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376250074000" ignored="false" />
     <file path="$PROJECT_DIR$/../rafiki marketing/index.html" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375767253951" ignored="false" />
     <file path="$PROJECT_DIR$/../rafiki marketing/carousel.css" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375767291352" ignored="false" />
-    <file path="/text_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1375933215239" ignored="false" />
+    <file path="/text_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376246608263" ignored="false" />
+    <file path="/custom.js" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376006152785" ignored="false" />
+    <file path="/style.css" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376006973828" ignored="false" />
+    <file path="/style.less" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376006998524" ignored="false" />
+    <file path="/stat_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376240985854" ignored="false" />
+    <file path="/dashboard_ctrl.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376244988386" ignored="false" />
+    <file path="/dashboard.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376247572743" ignored="false" />
+    <file path="/contact_model.php" changelist="2f15fa69-ecb3-4d93-89c3-37509a09f7c4" time="1376250556810" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -124,6 +116,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -133,70 +126,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stats.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/stats.php">
+      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="214" column="38" selection-start="7373" selection-end="7373" vertical-scroll-proportion="-5.901961">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-1.10.2.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="42" selection-start="64252" selection-end="64269" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="68" selection-start="1665" selection-end="1665" vertical-scroll-proportion="-14.346154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charts_ctrl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/charts_ctrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="48" selection-start="565" selection-end="565" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charts.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="41" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.5584416">
-              <folding>
-                <marker date="1375936261258" expanded="true" signature="18415:18441" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stat_ctrl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/stat_ctrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="60" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-17.615385">
+            <state line="125" column="29" selection-start="4539" selection-end="4539" vertical-scroll-proportion="-2.235294">
               <folding />
             </state>
           </provider>
@@ -205,7 +138,77 @@
       <file leaf-file-name="call_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/call_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="43" selection-start="592" selection-end="592" vertical-scroll-proportion="40.576923">
+            <state line="11" column="0" selection-start="203" selection-end="329" vertical-scroll-proportion="-3.2692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="868" column="17" selection-start="18685" selection-end="18695" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1376006801792" expanded="false" signature="22476:22486" placeholder="..." />
+                <marker date="1376006801792" expanded="false" signature="23552:23562" placeholder="..." />
+                <marker date="1376006801792" expanded="false" signature="24356:24366" placeholder="..." />
+                <marker date="1376006801792" expanded="false" signature="25382:25392" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2265" column="12" selection-start="65564" selection-end="65564" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="29" selection-start="2853" selection-end="2853" vertical-scroll-proportion="-6.8">
+              <folding>
+                <marker date="1376250109913" expanded="true" signature="19020:19046" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/contact_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4650456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.sparkline.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/jquery.sparkline.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charts_ctrl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/charts_ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="45" selection-start="692" selection-end="692" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard_ctrl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/dashboard_ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="26" selection-start="1734" selection-end="1734" vertical-scroll-proportion="8.5">
               <folding />
             </state>
           </provider>
@@ -214,16 +217,7 @@
       <file leaf-file-name="text_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/text_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="36" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-40.53846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="47" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0">
+            <state line="72" column="12" selection-start="2034" selection-end="2093" vertical-scroll-proportion="-6.1153846">
               <folding />
             </state>
           </provider>
@@ -247,20 +241,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
-        <option value="$PROJECT_DIR$/application/controllers/async.php" />
-        <option value="$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js" />
-        <option value="$PROJECT_DIR$/application/models/call_model.php" />
-        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/models/text_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
-        <option value="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/css/style.less" />
         <option value="$PROJECT_DIR$/application/views/stats.php" />
+        <option value="$PROJECT_DIR$/assets/css/style.min.css" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/stat_ctrl.php" />
+        <option value="$PROJECT_DIR$/application/models/stat_model.php" />
+        <option value="$PROJECT_DIR$/assets/js/jquery.sparkline.min.js" />
+        <option value="$PROJECT_DIR$/application/controllers/dashboard_ctrl.php" />
+        <option value="$PROJECT_DIR$/application/models/text_model.php" />
+        <option value="$PROJECT_DIR$/application/models/call_model.php" />
+        <option value="$PROJECT_DIR$/application/views/dashboard.php" />
+        <option value="$PROJECT_DIR$/application/controllers/charts_ctrl.php" />
         <option value="$PROJECT_DIR$/assets/js/charts.js" />
+        <option value="$PROJECT_DIR$/application/models/contact_model.php" />
       </list>
     </option>
   </component>
@@ -299,6 +295,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -329,24 +326,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rafiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rafiki" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,7 +453,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,8 +467,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -519,19 +497,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -558,6 +523,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -642,7 +620,11 @@
       <created>1375247334508</created>
       <updated>1375247334508</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Main Chart now shows calls/texts correctly.&#10;All Calls Percent now working">
+      <created>1375936457580</created>
+      <updated>1375936457580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -672,6 +654,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -686,13 +669,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32272726" sideWeight="0.46744573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18787879" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -738,7 +720,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created ajax request to load calls line in main chart for the last 30 days.&#10;charts.js still needs work to fix chart." />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Chart now shows calls/texts correctly.&#10;All Calls Percent now working" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -756,6 +738,7 @@
     <MESSAGE value="Added AJAX base&#10;Made numbers more dynamic" />
     <MESSAGE value="Added Async controller to hook into ajax requests" />
     <MESSAGE value="Created ajax request to load calls line in main chart for the last 30 days.&#10;charts.js still needs work to fix chart." />
+    <MESSAGE value="Main Chart now shows calls/texts correctly.&#10;All Calls Percent now working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,109 +746,122 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="444" selection-end="444" vertical-scroll-proportion="0.03307393" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/foreign_chars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="20" selection-start="13229" selection-end="13229" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="857" column="22" selection-start="18484" selection-end="18484" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="47" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/jquery-1.10.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="42" selection-start="64252" selection-end="64269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="944" column="13" selection-start="14881" selection-end="14887" vertical-scroll-proportion="0.3702081" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="62130" selection-start="62219" selection-end="62219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="68" selection-start="1665" selection-end="1665" vertical-scroll-proportion="-14.346154">
+        <state line="47" column="30" selection-start="1741" selection-end="1741" vertical-scroll-proportion="-30.73077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/MainChartServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.3461539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/stat_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="14" selection-start="1472" selection-end="1472" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="868" column="17" selection-start="18685" selection-end="18695" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376006801792" expanded="false" signature="22476:22486" placeholder="..." />
+            <marker date="1376006801792" expanded="false" signature="23552:23562" placeholder="..." />
+            <marker date="1376006801792" expanded="false" signature="24356:24366" placeholder="..." />
+            <marker date="1376006801792" expanded="false" signature="25382:25392" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2265" column="12" selection-start="65564" selection-end="65564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.sparkline.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.IntelliJIdea12/config/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="287" column="9" selection-start="7641" selection-end="7641" vertical-scroll-proportion="0.3607595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/dashboard_ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="26" selection-start="1734" selection-end="1734" vertical-scroll-proportion="8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/text_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="36" selection-start="1701" selection-end="1701" vertical-scroll-proportion="-40.53846">
+        <state line="72" column="12" selection-start="2034" selection-end="2093" vertical-scroll-proportion="-6.1153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/call_model.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/common.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="43" selection-start="592" selection-end="592" vertical-scroll-proportion="40.576923">
+        <state line="123" column="19" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.28181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="29" selection-start="4539" selection-end="4539" vertical-scroll-proportion="-2.235294">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/charts_ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="565" selection-end="565" vertical-scroll-proportion="-13.076923">
+        <state line="31" column="45" selection-start="692" selection-end="692" vertical-scroll-proportion="-5.230769">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/stat_ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="60" selection-start="1682" selection-end="1682" vertical-scroll-proportion="-17.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/stats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="214" column="38" selection-start="7373" selection-end="7373" vertical-scroll-proportion="-5.901961">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#footer#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="41" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.5584416">
+        <state line="87" column="29" selection-start="2853" selection-end="2853" vertical-scroll-proportion="-6.8">
           <folding>
-            <marker date="1375936261258" expanded="true" signature="18415:18441" placeholder="..." />
+            <marker date="1376250109913" expanded="true" signature="19020:19046" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/call_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="203" selection-end="329" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/contact_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4650456">
+          <folding />
         </state>
       </provider>
     </entry>

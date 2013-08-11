@@ -23,8 +23,8 @@ class charts_ctrl extends CI_Controller{
         //define array
         $countArr = array();
 
-        //for the 30 days prior to today
-        for($i = 30, $j = 1; $i >= 1; $i--, $j++){
+        //for the days prior to today
+        for($i = 29, $j = 1; $i >= 0; $i--, $j++){
 
             //Build the string
             $timeBuildString = date("Y-m-d") . " -" . $i . " days";
@@ -54,7 +54,7 @@ class charts_ctrl extends CI_Controller{
         $countArr = array();
 
         //for the 30 days prior to today
-        for($i = 30, $j = 1; $i >= 1; $i--, $j++){
+        for($i = 29, $j = 1; $i >= 0; $i--, $j++){
 
             //Build the string
             $timeBuildString = date("Y-m-d") . " -" . $i . " days";

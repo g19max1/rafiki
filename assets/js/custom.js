@@ -841,23 +841,7 @@ function calendars(){
 /* ---------- Widget Area Functions ---------- */
 function widget_area_functions() {
 	
-	/* ---------- Just Gage Charts ---------- */
-	
-	var g1;
-	
-	setInterval(function() {
-	          g1.refresh(getRandomInt(0, 100));
-	}, 2500);
-	
-	var g1 = new JustGage({
-	    id: "cpu-usage",
-	    value: getRandomInt(0, 100), 
-	    min: 0,
-	    max: 100,
-	    title: "Interaction Index",
-	    label: "Activity",
-	    levelColorsGradient: false
-	 });
+
 	
 	/* ---------- Bar Stats ---------- */
 	
