@@ -17,7 +17,7 @@
     <!-- start: CSS -->
     <link href="<?php echo(THEME_PATH); ?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="<?php echo(THEME_PATH); ?>css/style.min.css" rel="stylesheet">
+    <link href="<?php echo(THEME_PATH); ?>css/style.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/style-responsive.min.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/retina.css" rel="stylesheet">
     <link href="<?php echo(THEME_PATH); ?>css/custom.css" rel="stylesheet">
@@ -152,6 +152,13 @@
                 <div class="percent"><?php echo ($text_change_percentage);?> from yesterday</div>
             </div>
         </div>
+        <div class="stat hidden">
+            <p class="btn-group right">
+                <button class="btn">30 Days</button>
+                <button class="btn">2 Weeks</button>
+                <button class="btn">Week</button>
+            </p>
+        </div>
 
     </div>
 
@@ -211,7 +218,7 @@
                 <li>
                     <span class="title">All Calls Answered</span>
                     <span class="percent"></span>
-                    <div class="taskProgress progressSlim progressGreen"><?php echo round($percent_calls_answered); ?></div>
+                    <div class="taskProgress progressSlim progressGreen"><?php if(isset($percent_calls_answered)){echo round($percent_calls_answered);}else{echo("");} ?></div>
                 </li>
 
                 <li>
@@ -322,7 +329,7 @@
 <div id="content" class="span12">
 <div class="row-fluid">
 
-<div class="widget span7" onTablet="span12" onDesktop="span7">
+<div class="widget span7" onTablet="span12" onDesktop="span6">
 
     <h2><span class="glyphicons globe"><i></i></span>Most Contacted - By Calls</h2>
 
@@ -337,12 +344,25 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>37%</span>
+                        <span><?php if(isset($top_ten_call[0]["amount"])){echo $top_ten_call[0]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">James Hardi</div>
+                <div class="title"><?php if(isset($top_ten_call[0]["name"])){echo $top_ten_call[0]["name"];}?></div>
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value">
+                        <span><?php if(isset($top_ten_call[1]["amount"])){echo $top_ten_call[1]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_call[1]["name"])){echo $top_ten_call[1]["name"];}?></div>
 
             </div>
 
@@ -351,12 +371,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>16%</span>
+                        <span><?php if(isset($top_ten_call[2]["amount"])){echo $top_ten_call[2]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Phil Sturgeon</div>
+                <div class="title"><?php if(isset($top_ten_call[2]["name"])){echo $top_ten_call[2]["name"];}?></div>
 
             </div>
 
@@ -365,12 +385,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>12%</span>
+                        <span><?php if(isset($top_ten_call[3]["amount"])){echo $top_ten_call[3]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Paul Maney</div>
+                <div class="title"><?php if(isset($top_ten_call[3]["name"])){echo $top_ten_call[3]["name"];}?></div>
 
             </div>
 
@@ -379,12 +399,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>9%</span>
+                        <span><?php if(isset($top_ten_call[4]["amount"])){echo $top_ten_call[4]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Stephen King</div>
+                <div class="title"><?php if(isset($top_ten_call[4]["name"])){echo $top_ten_call[4]["name"];}?></div>
 
             </div>
 
@@ -393,12 +413,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>7%</span>
+                        <span><?php if(isset($top_ten_call[5]["amount"])){echo $top_ten_call[5]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Chase Ijams</div>
+                <div class="title"><?php if(isset($top_ten_call[5]["name"])){echo $top_ten_call[5]["name"];}?></div>
 
             </div>
 
@@ -407,12 +427,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>6%</span>
+                        <span><?php if(isset($top_ten_call[6]["amount"])){echo $top_ten_call[6]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Wes Jordan</div>
+                <div class="title"><?php if(isset($top_ten_call[6]["name"])){echo $top_ten_call[6]["name"];}?></div>
 
             </div>
 
@@ -421,12 +441,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>5%</span>
+                        <span><?php if(isset($top_ten_call[7]["amount"])){echo $top_ten_call[7]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Colin Stewart</div>
+                <div class="title"><?php if(isset($top_ten_call[7]["name"])){echo $top_ten_call[7]["name"];}?></div>
 
             </div>
 
@@ -435,12 +455,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>4%</span>
+                        <span><?php if(isset($top_ten_call[8]["amount"])){echo $top_ten_call[8]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Wolgang Lampke</div>
+                <div class="title"><?php if(isset($top_ten_call[8]["name"])){echo $top_ten_call[8]["name"];}?></div>
 
             </div>
 
@@ -449,26 +469,12 @@
                 <div class="bar">
 
                     <div class="value">
-                        <span>3%</span>
+                        <span><?php if(isset($top_ten_call[9]["amount"])){echo $top_ten_call[9]["amount"];}?></span>
                     </div>
 
                 </div>
 
-                <div class="title">Mom</div>
-
-            </div>
-
-            <div class="singleBar">
-
-                <div class="bar">
-
-                    <div class="value">
-                        <span>1%</span>
-                    </div>
-
-                </div>
-
-                <div class="title">Caleb Lawson</div>
+                <div class="title"><?php if(isset($top_ten_call[9]["name"])){echo $top_ten_call[9]["name"];}?></div>
 
             </div>
 
@@ -478,22 +484,160 @@
 
 </div><!--/span-->
 
-<div class="box span5 noMargin" ontablet="span12" ondesktop="span5">
-    <h2><i class="halflings-icon info-sign"></i><span class="break"></span>You Should Try...</h2>
-    <div class="box-content">
-        <div class="todo">
-            <ul class="todo-list">
-                <li>
-                    Windows Phone 8 App <span class="label label-important">today</span>
-                </li>
-                <li>New frontend layout <span class="label label-important">today</span>
-                </li>
-                <li>Hire developers <span class="label label-warning">tommorow</span>
-                </li>
-            </ul>
+<div class="widget span7" onTablet="span12" onDesktop="span6">
+
+    <h2><span class="glyphicons globe"><i></i></span>Most Contacted - By Texts</h2>
+
+    <hr>
+
+    <div class="content">
+
+        <div class="verticalChart">
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[0]["amount"])){echo $top_ten_text[0]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[0]["name"])){echo $top_ten_text[0]["name"];}?></div>
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[1]["amount"])){echo $top_ten_text[1]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[1]["name"])){echo $top_ten_text[1]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[2]["amount"])){echo $top_ten_text[2]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[2]["name"])){echo $top_ten_text[2]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[3]["amount"])){echo $top_ten_text[3]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[3]["name"])){echo $top_ten_text[3]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[4]["amount"])){echo $top_ten_text[4]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[4]["name"])){echo $top_ten_text[4]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[5]["amount"])){echo $top_ten_text[5]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[5]["name"])){echo $top_ten_text[5]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[6]["amount"])){echo $top_ten_text[6]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[6]["name"])){echo $top_ten_text[6]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[7]["amount"])){echo $top_ten_text[7]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[7]["name"])){echo $top_ten_text[7]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[8]["amount"])){echo $top_ten_text[8]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten_text[8]["name"])){echo $top_ten_text[8]["name"];}?></div>
+
+            </div>
+
+            <div class="singleBar">
+
+                <div class="bar">
+
+                    <div class="value" style="background: #67c2ef;">
+                        <span><?php if(isset($top_ten_text[9]["amount"])){echo $top_ten_text[9]["amount"];}?></span>
+                    </div>
+
+                </div>
+
+                <div class="title"><?php if(isset($top_ten[9]["name"])){echo $top_ten[9]["name"];}?></div>
+
+            </div>
+
         </div>
+
     </div>
-</div>
+
+</div><!--/span-->
 
 </div>
 <!-- end: Content -->

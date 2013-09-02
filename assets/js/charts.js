@@ -1,5 +1,5 @@
 function charts() {
-
+   var API_PATH = "http://api.frostbytedata.com/";
   /* ---------- Chart with points ---------- */
   function drawMainChart() {
 
@@ -10,14 +10,14 @@ function charts() {
 
     // fire off the request to /form.php
     var callRequest = $.ajax({
-      url: "charts/getcallvalues",
+      url: API_PATH + "chart/getcallvalues",
       type: "post",
       mimeType: "application/json"
     });
 
     // fire off the request to /form.php
     var textRequest = $.ajax({
-      url: "charts/gettextvalues",
+      url: API_PATH + "chart/gettextvalues",
       type: "post",
       mimeType: "application/json"
     });
@@ -104,7 +104,7 @@ function charts() {
   /* ---------- Just Gage Charts ---------- */
   // fire off the request to /form.php
   var iiRequest = $.ajax({
-    url: "stats/getinteractionindex",
+    url: API_PATH + "stat/getinteractionindex",
     type: "post",
     mimeType: "application/json"
   });
@@ -116,7 +116,7 @@ function charts() {
       value: _iiRequest,
       min: 0,
       max: 100,
-      title: "Interaction Index",
+      title: "Activity Level",
       label: "%",
       levelColorsGradient: false
     });

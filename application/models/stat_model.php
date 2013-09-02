@@ -33,28 +33,11 @@ class stat_model extends CI_Model {
     //Get values for mini data charts on sidebar
     public function getMiniBarsAllTimeCalls(){
 
-        //define string because charting library wants csv
-        $countArr = "";
-
-        //for the 10 days prior to today
-        for($i = 10, $j = 1; $i >= 1; $i--, $j++){
-
-            //Build the string
-            $timeBuildString = date("Y-m-d") . " -" . $i . " days";
-
-            //Do date math
-            $timestamp = strtotime($timeBuildString);
-
-            //Convert timestamp to MySQL datetime format
-            $formattedDate = substr(date("Y-m-d H:i:s", $timestamp), 0, 10);
-
-            //data to be retrieved by $.post jquery
-            if($i != 1){
-                $countArr .= count($this->call_model->getCallsOnDate($formattedDate)) . ",";
-            } else {  //Don't add comma on last value
-                $countArr .= count($this->call_model->getCallsOnDate($formattedDate));
-            }
-        }
+        $service_url = API_URL . 'stat/getminibarsalltimecalls';
+        $curl = curl_init($service_url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $countArr = curl_exec($curl);
+        curl_close($curl);
 
         return $countArr;
     }
@@ -62,28 +45,11 @@ class stat_model extends CI_Model {
     //Get values for mini data charts on sidebar
     public function getMiniBarsAllOutgoingCalls(){
 
-        //define string because charting library wants csv
-        $countArr = "";
-
-        //for the 10 days prior to today
-        for($i = 10, $j = 1; $i >= 1; $i--, $j++){
-
-            //Build the string
-            $timeBuildString = date("Y-m-d") . " -" . $i . " days";
-
-            //Do date math
-            $timestamp = strtotime($timeBuildString);
-
-            //Convert timestamp to MySQL datetime format
-            $formattedDate = substr(date("Y-m-d H:i:s", $timestamp), 0, 10);
-
-            //data to be retrieved by $.post jquery
-            if($i != 1){
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "outgoing")) . ",";
-            } else {  //Don't add comma on last value
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "outgoing"));
-            }
-        }
+        $service_url = API_URL . 'stat/getMiniBarsAllOutgoingCalls';
+        $curl = curl_init($service_url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $countArr = curl_exec($curl);
+        curl_close($curl);
 
         return $countArr;
     }
@@ -91,28 +57,11 @@ class stat_model extends CI_Model {
     //Get values for mini data charts on sidebar
     public function getMiniBarsAnsweredCalls(){
 
-        //define string because charting library wants csv
-        $countArr = "";
-
-        //for the 10 days prior to today
-        for($i = 10, $j = 1; $i >= 1; $i--, $j++){
-
-            //Build the string
-            $timeBuildString = date("Y-m-d") . " -" . $i . " days";
-
-            //Do date math
-            $timestamp = strtotime($timeBuildString);
-
-            //Convert timestamp to MySQL datetime format
-            $formattedDate = substr(date("Y-m-d H:i:s", $timestamp), 0, 10);
-
-            //data to be retrieved by $.post jquery
-            if($i != 1){
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "incoming")) . ",";
-            } else {  //Don't add comma on last value
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "incoming"));
-            }
-        }
+        $service_url = API_URL . 'stat/getMiniBarsAnsweredCalls';
+        $curl = curl_init($service_url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $countArr = curl_exec($curl);
+        curl_close($curl);
 
         return $countArr;
     }
@@ -120,28 +69,11 @@ class stat_model extends CI_Model {
     //Get values for mini data charts on sidebar
     public function getMiniBarsMissedCalls(){
 
-        //define string because charting library wants csv
-        $countArr = "";
-
-        //for the 10 days prior to today
-        for($i = 10, $j = 1; $i >= 1; $i--, $j++){
-
-            //Build the string
-            $timeBuildString = date("Y-m-d") . " -" . $i . " days";
-
-            //Do date math
-            $timestamp = strtotime($timeBuildString);
-
-            //Convert timestamp to MySQL datetime format
-            $formattedDate = substr(date("Y-m-d H:i:s", $timestamp), 0, 10);
-
-            //data to be retrieved by $.post jquery
-            if($i != 1){
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "missed")) . ",";
-            } else {  //Don't add comma on last value
-                $countArr .= count($this->call_model->getCallsOnDateByType($formattedDate, "missed"));
-            }
-        }
+        $service_url = API_URL . 'stat/getMiniBarsMissedCalls';
+        $curl = curl_init($service_url);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $countArr = curl_exec($curl);
+        curl_close($curl);
 
         return $countArr;
     }

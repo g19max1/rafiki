@@ -32,6 +32,7 @@ class dashboard_ctrl extends CI_Controller{
         $this->load->model('call_model');
         $this->load->model('stat_model');
         $this->load->model('text_model');
+        $this->load->model('contact_model');
 
         //Run functions and store data to be passed to the view
         //Call Stuff
@@ -39,21 +40,25 @@ class dashboard_ctrl extends CI_Controller{
         $outgoingCount = $this->call_model->getOutgoingCallCount();
         $answeredCount = $this->call_model->getAnsweredCallCount();
         $missedCount = $this->call_model->getMissedCallCount();
-        $callPercentageArr = $this->call_model->getPercentageArray();
+        $callPercentageArr = json_decode($this->call_model->getPercentageArray(), true);
         $callChangePercentageArrowDirection = $callPercentageArr["direction"];
         $callChangePercentage = $callPercentageArr["value"];
         $percentCallsAnswered = 100 * ($answeredCount / $callCount);
         $interactionIndex = $this->stat_model->getInteractionIndex();
         //Text Stuff
         $textCount = $this->text_model->getTotalCount();
-        $textPercentageArr = $this->text_model->getPercentageArray();
+        $textPercentageArr = json_decode($this->text_model->getPercentageArray(), true);
         $textChangePercentageArrowDirection = $textPercentageArr["direction"];
         $textChangePercentage = $textPercentageArr["value"];
         //Mini bars data
-        $miniBarAllCalls = $this->stat_model->getMiniBarsAllTimeCalls();
-        $miniBarAllOutgoing = $this->stat_model->getMiniBarsAllOutgoingCalls();
-        $miniBarAnswered = $this->stat_model->getMiniBarsAnsweredCalls();
-        $miniBarMissed = $this->stat_model->getMiniBarsMissedCalls();
+        $miniBarAllCalls = json_decode($this->stat_model->getMiniBarsAllTimeCalls());
+        $miniBarAllOutgoing = json_decode($this->stat_model->getMiniBarsAllOutgoingCalls());
+        $miniBarAnswered = json_decode($this->stat_model->getMiniBarsAnsweredCalls());
+        $miniBarMissed = json_decode($this->stat_model->getMiniBarsMissedCalls());
+
+        //Contact Data
+        $topTenCall = json_decode($this->contact_model->getTopTenContactedCall(), true);
+        $topTenText = json_decode($this->contact_model->getTopTenContactedText(), true);
 
         //Populate the data into an array to be
         //passed into the view.
@@ -75,6 +80,9 @@ class dashboard_ctrl extends CI_Controller{
             'mini_bar_all_outgoing' => $miniBarAllOutgoing,
             'mini_bar_answered' => $miniBarAnswered,
             'mini_bar_missed' => $miniBarMissed,
+
+            'top_ten_call' => $topTenCall,
+            'top_ten_text' => $topTenText
         );
 
         //Load the Main View with data

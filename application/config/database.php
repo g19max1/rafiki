@@ -52,11 +52,11 @@ $active_group = 'local';
 $active_record = TRUE;
 
 //Parker's Local DB
-$db['local']['hostname'] = 'localhost';
-$db['local']['username'] = 'rafiki';
-$db['local']['password'] = 'S3esqac893EVqtwP';
-$db['local']['database'] = 'rafiki';
-$db['local']['dbdriver'] = 'mysql';
+$db['local']['hostname'] = '';
+$db['local']['username'] = '';
+$db['local']['password'] = '';
+$db['local']['database'] = '';
+$db['local']['dbdriver'] = '';
 $db['local']['dbprefix'] = '';
 $db['local']['pconnect'] = TRUE;
 $db['local']['db_debug'] = TRUE;

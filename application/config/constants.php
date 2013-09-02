@@ -45,6 +45,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 |
 */
 define('THEME_PATH','assets/'); //The path to bootstrap themes
+define('API_URL','http://api.frostbytedata.com/'); //The path to bootstrap themes
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
